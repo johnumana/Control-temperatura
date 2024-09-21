@@ -1,0 +1,62 @@
+2024-09-16T18:59:10.315-05:00  INFO 8588 --- [main] com.temperature_control.Application      : Starting Application using Java 17.0.11 with PID 8588 (C:\Users\JHONIER ARIAS\Desktop\INSTRUCTORES\INS.RAFAEL\4 TRIMESTRE\temperature_control\build\classes\java\main started by JHONIER ARIAS in C:\Users\JHONIER ARIAS\Desktop\INSTRUCTORES\INS.RAFAEL\4 TRIMESTRE\temperature_control)
+2024-09-16T18:59:10.349-05:00 DEBUG 8588 --- [main] com.temperature_control.Application      : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-16T18:59:10.356-05:00  INFO 8588 --- [main] com.temperature_control.Application      : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T18:59:12.322-05:00  INFO 8588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T18:59:12.824-05:00  INFO 8588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 482 ms. Found 10 JPA repository interfaces.
+2024-09-16T18:59:14.330-05:00  INFO 8588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-16T18:59:14.354-05:00  INFO 8588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T18:59:14.355-05:00  INFO 8588 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T18:59:14.480-05:00  INFO 8588 --- [main] o.a.c.c.C.[.[.[/temperature_control]     : Initializing Spring embedded WebApplicationContext
+2024-09-16T18:59:14.484-05:00  INFO 8588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3771 ms
+2024-09-16T18:59:14.937-05:00  INFO 8588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T18:59:15.106-05:00  INFO 8588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16T18:59:15.270-05:00  INFO 8588 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T18:59:16.377-05:00  INFO 8588 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T18:59:16.543-05:00  INFO 8588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T18:59:17.443-05:00  INFO 8588 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a7bc16b
+2024-09-16T18:59:17.524-05:00  INFO 8588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T18:59:17.573-05:00  WARN 8588 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause'
+2024-09-16T18:59:17.606-05:00  WARN 8588 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16T18:59:17.608-05:00  WARN 8588 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16T18:59:19.917-05:00  INFO 8588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T18:59:19.927-05:00  INFO 8588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T18:59:20.707-05:00  WARN 8588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T18:59:21.650-05:00  INFO 8588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/temperature_control'
+2024-09-16T18:59:21.668-05:00  INFO 8588 --- [main] com.temperature_control.Application      : Started Application in 12.726 seconds (process running for 19.392)
+2024-09-16T19:07:44.462-05:00  INFO 8588 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/temperature_control]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T19:07:44.466-05:00  INFO 8588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T19:07:44.468-05:00  INFO 8588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-16T19:11:14.389-05:00  INFO 8588 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T19:11:14.393-05:00  INFO 8588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T19:11:14.403-05:00  INFO 8588 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-16T19:11:33.452-05:00  INFO 192 --- [main] com.temperature_control.Application      : Starting Application using Java 17.0.11 with PID 192 (C:\Users\JHONIER ARIAS\Desktop\INSTRUCTORES\INS.RAFAEL\4 TRIMESTRE\temperature_control\build\classes\java\main started by JHONIER ARIAS in C:\Users\JHONIER ARIAS\Desktop\INSTRUCTORES\INS.RAFAEL\4 TRIMESTRE\temperature_control)
+2024-09-16T19:11:33.455-05:00 DEBUG 192 --- [main] com.temperature_control.Application      : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-16T19:11:33.456-05:00  INFO 192 --- [main] com.temperature_control.Application      : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T19:11:35.264-05:00  INFO 192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T19:11:35.381-05:00  INFO 192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 10 JPA repository interfaces.
+2024-09-16T19:11:36.320-05:00  INFO 192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-16T19:11:36.346-05:00  INFO 192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T19:11:36.347-05:00  INFO 192 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T19:11:36.460-05:00  INFO 192 --- [main] o.a.c.c.C.[.[.[/temperature_control]     : Initializing Spring embedded WebApplicationContext
+2024-09-16T19:11:36.461-05:00  INFO 192 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2885 ms
+2024-09-16T19:11:37.229-05:00  INFO 192 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T19:11:37.721-05:00  INFO 192 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-16T19:11:37.997-05:00  INFO 192 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T19:11:38.683-05:00  INFO 192 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T19:11:38.756-05:00  INFO 192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T19:11:39.312-05:00  INFO 192 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3973b6d4
+2024-09-16T19:11:39.320-05:00  INFO 192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T19:11:39.414-05:00  WARN 192 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause'
+2024-09-16T19:11:39.473-05:00  WARN 192 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16T19:11:39.477-05:00  WARN 192 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-09-16T19:11:41.230-05:00  INFO 192 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T19:11:41.237-05:00  INFO 192 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T19:11:42.496-05:00  WARN 192 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T19:11:43.228-05:00  INFO 192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/temperature_control'
+2024-09-16T19:11:43.242-05:00  INFO 192 --- [main] com.temperature_control.Application      : Started Application in 10.723 seconds (process running for 12.182)
+2024-09-16T19:11:50.727-05:00  INFO 192 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/temperature_control]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T19:11:50.728-05:00  INFO 192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T19:11:50.729-05:00  INFO 192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-16T19:12:58.275-05:00  INFO 192 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T19:12:58.285-05:00  INFO 192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T19:12:58.312-05:00  INFO 192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
